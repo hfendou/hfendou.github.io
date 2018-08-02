@@ -6,10 +6,9 @@
 
 
 
-##About ME
+##About Me
 
-```json
-
+```markdown
 {
 "name":"Vidic.Huang",
 
@@ -26,6 +25,7 @@
 "tags":["backend developer","dotNet developer","gym","marathon","never stop to learn"]
 
 }
+
 
 
 ```
