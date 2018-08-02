@@ -6,17 +6,28 @@
 
 
 
-## README
+##About ME
+
 ```json
+
 {
 "name":"Vidic.Huang",
+
 "gender":"male",
+
 "age":$(($YEAR-1989)),
+
 "sexualOrientation":"female",
+
 "location":"GuangZhou",
+
 "industry":"IT",
-"tags":["backend developer","dotNet developer","gym","marathon","never stop to learn"
+
+"tags":["backend developer","dotNet developer","gym","marathon","never stop to learn"]
+
 }
+
+
 ```
 Fork from [souler](@False)
 
