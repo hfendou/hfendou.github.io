@@ -1,0 +1,27 @@
+---
+layout:       post
+title:        "Hello World"
+subtitle:     "I‘M Dot NET Developer"
+date:         2018-08-02 12:00:00
+author:       "Hfendou"
+header-img:   "img/post-bg-re-vs-ng2.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - 后端开发
+    - DotNet
+    - DNC
+---
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include posts/2018-08-02-The1stBlog/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include posts/2018-08-02-The1stBlog/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
