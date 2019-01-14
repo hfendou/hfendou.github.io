@@ -50,6 +50,7 @@
 
 
 ```
+```markdown
 注意：
 
 HttpPost  action不能重复！！
@@ -59,8 +60,11 @@ postman 抛错 "Message": "An error has occurred.",
 被标记为[FromBody]的参数只允许出现一次， 被标记为[FromUri]的参数可以出现多次
 
 ps：使用swagger  会接触到三种参数类型
- query  url ?key=values
+
+query  url ?key=values
+
 path   url {values}
+
 body   值类型-->'' ；多个参数封装对象
 
----
+```
