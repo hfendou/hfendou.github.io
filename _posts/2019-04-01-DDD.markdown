@@ -1,0 +1,26 @@
+---
+layout:       post
+title:        "ElasticSearch"
+subtitle:     "about Lucene "
+date:         2019-04-01 22:10:20
+author:       "Hfendou"
+header-img:   "img/post-bg-re-vs-ng2.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - DDD
+    - DotNet
+---
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include posts/2019-04-01-DDD/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include posts/2019-04-01-DDD/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>

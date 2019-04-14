@@ -1,0 +1,28 @@
+---
+layout:       post
+title:        "MVC"
+subtitle:     ""
+date:         2018-12-06 19:21:17
+author:       "Hfendou"
+header-img:   "img/post-bg-re-vs-ng2.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - DotNet
+    - filter
+    - HttpModule
+    - HttpHandler
+---
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include posts/2018-12-06-MVC/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include posts/2018-12-06-MVC/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>

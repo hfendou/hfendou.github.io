@@ -1,0 +1,26 @@
+---
+layout:       post
+title:        "Luncence"
+subtitle:     " "
+date:         2018-11-19 22:04:28
+author:       "Hfendou"
+header-img:   "img/post-bg-re-vs-ng2.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Luncence
+    - DotNet
+---
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include posts/2018-11-19-Luncence/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include posts/2018-11-19-Luncence/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
